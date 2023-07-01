@@ -1,5 +1,22 @@
 export const projects = [
   {
+    title: "Messenger Clone",
+    description:
+      "realtime chat, send images , making group and private chat, active status, responsive.",
+    image: "./images/Messenger.png",
+    tags: [
+      "Next.js",
+      "Prisma",
+      "Next auth",
+      "pusher",
+      "Tailwind CSS",
+      "MongoDB",
+    ],
+    visit: "https://messenger-clone-inx2st53d-ramezgamel.vercel.app/",
+    source: "https://github.com/ramezgamel/Messenger_Clone",
+    id: 0,
+  },
+  {
     title: "Movie App",
     description:
       "Using Angular, and that features you'll learn how to build a Full Stack MEAN Application - from start to finish. The App is called MoviesLand and it is a simple movies app with an Authentication.",
@@ -7,7 +24,7 @@ export const projects = [
     tags: ["Angular", "BootStrap", "RestFull APIs"],
     visit: "https://github.com/ramezgamel/movieApp",
     source: "https://ramezgamel.github.io/movieApp/",
-    id: 0,
+    id: 1,
   },
   {
     title: "Recipe Book",
@@ -17,7 +34,7 @@ export const projects = [
     tags: ["Angular", "TypeScript", "Firebase"],
     visit: "https://github.com/ramezgamel/recipe-Book",
     source: "https://ramezgamel.github.io/recipe-Book/auth",
-    id: 1,
+    id: 2,
   },
 ];
 
@@ -47,3 +64,4 @@ export const images = [
   { src: "./images/10.png", name: "Health and Safety Certificate" },
   { src: "./images/11.png", name: "Trainee 3 Certificate" },
 ];
+
