@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "MHP Ecommerce",
+    description:
+      "A  full-stack e-commerce web application built using the MERN (MongoDB, Express.js, React, Node.js) stack, designed to provide users with a smooth andinteractive online shopping experience",
+    image: "./images/mhp.jpeg",
+    tags: [
+      "React.js",
+      "Node js",
+      "web socket",
+      "Tailwind CSS",
+      "MongoDB",
+    ],
+    visit: "https://mhpshop-rlks.onrender.com/",
+    source: "https://github.com/ramezgamel/E-Commerce",
+    id: 3,
+  },
+  {
     title: "Messenger Clone",
     description:
       "realtime chat, send images , making group and private chat, active status, responsive.",
